@@ -1,0 +1,4 @@
+Use the name of the folder this clue is in to decrypt the clue in clue4.  As 
+in clue1, run the decryption by navigating to clue4 directory and running:
+
+python unencrypt.py [key]

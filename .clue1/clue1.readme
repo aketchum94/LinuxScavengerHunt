@@ -1,0 +1,34 @@
+Congratulations! You found the first clue and can start on your your hunt!
+I figured that since you have this cool Linux operating system you should
+learn some of the neat tricks it can do.  Also I think there may be a lot of
+physical searches this year so I made this one that is space efficient!
+
+The next clue is in the directory ~/ChristmasScavengerHunt/clue2 in the file 
+clue2.readme.  However I think youll notice that the file is encrypted! 
+Sorry to do ya like that.  However you can unencrypt the file if you figure
+out the encryption key.  The encryption key is hidden in the file in this 
+directory called 'data'.  
+
+There is a bunch of bad data in the file and two keywords: "square" and "trinity".
+Any of the letters in the keywords may be upper or lowercase.  Find the number of
+lines in the file data with the keyword "square" somewhere in the line (I will
+refer to this as XXX representing a number any number of digits long).  Find the
+number of lines in the file with the keyword "trinity" somewhere in the line 
+(similarly this is YYY).  
+
+The encrptyion key is XXX concatenated with YYY, i.e. XXXYYY.  If XXX is 14 and 
+YYY is 464232 then the key would be 14464232.
+
+Once you have the encryption key, try using it to decrypt clue2.readme in the 
+clue2 directory.  Do this by going to the clue2 directory and running the 
+following command:
+
+python unencrypt.py [key]
+
+Then check the output file produced called clue2.out
+
+Remember:
+cd, ls, cat
+
+Hint: man grep
+:) 
